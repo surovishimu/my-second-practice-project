@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: gray;
+    height: 100px;
+
+
+}
+
+.logo-img {
+    height: 60px;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    color: white;
+    gap: 30px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.banner-container {
+    background-image: url(./asset/image/background.jpg),linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.4));
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+span{
+    color: orangered;
+}
+.banner-title{
+    font-size: 70px;
+    width: 700px;
+    color: white;
+    margin: auto;
+}
+.title-summery{
+    font-size:20px ;
+    width:50% ;
+    padding: 10px;
+    margin: auto;
+    color: white;
+}
+.banner-btn1{
+    background-color: orangered;
+    height: 50px;
+    width: 110px;
+    border: none;
+    color: white;
+    font-size: 15px;
+   
+}
+.banner-btn2{
+    background-color:white;
+    height: 50px;
+    width: 110px;
+    border: none;
+    color: black;
+    font-size: 15px;
+  margin: 20px;
+   
+}
+.banner-info {}
